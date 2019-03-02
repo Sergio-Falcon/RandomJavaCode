@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+         <children>
+            <Label alignment="CENTER_RIGHT" layoutX="1.0" prefHeight="67.0" prefWidth="250.0" text="First Name:" textAlignment="RIGHT">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
+         <children>
+            <Label alignment="CENTER_RIGHT" layoutX="4.0" layoutY="-4.0" prefHeight="74.0" prefWidth="244.0" text="Date of Birth:" textAlignment="RIGHT">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="4">
+         <children>
+            <Label alignment="CENTER_RIGHT" prefHeight="67.0" prefWidth="250.0" text="Gender:" textAlignment="RIGHT">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <Label fx:id="firstName" layoutX="1.0" prefHeight="67.0" prefWidth="244.0" text="firstName">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <children>
+            <Label fx:id="dob" layoutX="-3.0" layoutY="4.0" prefHeight="57.0" prefWidth="250.0" text="dob">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <children>
+            <Label fx:id="gender" layoutX="2.0" prefHeight="67.0" prefWidth="244.0" text="gender">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+         <children>
+            <Label fx:id="id" layoutX="7.0" prefHeight="67.0" prefWidth="244.0" text="id">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label alignment="CENTER_RIGHT" layoutX="3.0" prefHeight="67.0" prefWidth="244.0" text="ID:" textAlignment="RIGHT">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2" GridPane.rowIndex="6">
+         <children>
+            <Button fx:id="edit" layoutX="66.0" layoutY="13.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="113.0" text="Edit">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="audit" layoutX="306.0" layoutY="13.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="113.0" text="Audit Trail">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Label alignment="CENTER_RIGHT" prefHeight="54.0" prefWidth="251.0" text="Last Name:" textAlignment="RIGHT" GridPane.rowIndex="2">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="lastName" prefHeight="54.0" prefWidth="250.0" text="lastName" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" prefHeight="54.0" prefWidth="272.0" text="Website:" textAlignment="RIGHT" GridPane.rowIndex="5">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="website" prefHeight="54.0" prefWidth="263.0" text="website" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</GridPane>

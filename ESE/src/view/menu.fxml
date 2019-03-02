@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<MenuBar xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <menus>
+    <Menu mnemonicParsing="false" text="File">
+      <items>
+        <MenuItem fx:id="quit" mnemonicParsing="false" onAction="#handleMenuAction" text="Quit" />
+      </items>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Authors">
+      <items>
+            <MenuItem fx:id="authorList" mnemonicParsing="false" onAction="#handleMenuAction" text="Author List" />
+            <MenuItem fx:id="authorAdd" mnemonicParsing="false" onAction="#handleMenuAction" text="Add Author" />
+      </items>
+    </Menu>
+      <Menu mnemonicParsing="false" text="Books">
+        <items>
+            <MenuItem fx:id="bookList" mnemonicParsing="false" onAction="#handleMenuAction" text="Book List" />
+            <MenuItem fx:id="bookAdd" mnemonicParsing="false" onAction="#handleMenuAction" text="Add Book" />
+        </items>
+      </Menu>
+      <Menu mnemonicParsing="false" text="Library">
+        <items>
+          <MenuItem fx:id="libraryList" mnemonicParsing="false" onAction="#handleMenuAction" text="Library List" />
+            <MenuItem fx:id="libraryAdd" mnemonicParsing="false" onAction="#handleMenuAction" text="Add Library" />
+        </items>
+      </Menu>
+  </menus>
+</MenuBar>
